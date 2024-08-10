@@ -1,0 +1,15 @@
+const str = "Helloworld";
+function Gayathri(str) 
+{
+  for (var i = 0; i < str.length; i++) 
+  {
+    if (str[i] >= 'A' && str[i] <= 'Z') 
+    {
+      return true;
+    }
+  }
+  return false;
+}
+const result = Gayathri(str);
+console.log(result);
+
